@@ -27,7 +27,7 @@ Product.init(
       }
     },
     stock: {
-      types: DataTypes.INTEGER,
+      type: DataTypes.INTEGER,
       allownull: false,
       defaultValue: 10,
       validate: {
